@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+.members-wrapper {
+  width: 30rem;
+  padding: 2rem;
+}
+
+.member {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  background-color: whitesmoke;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.members-tasks-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  width: fit-content;
+  gap: 2rem;
+}
+
+.task-wrapper {
+  border: 1px solid black;
+  border-radius: 5px;
+}
