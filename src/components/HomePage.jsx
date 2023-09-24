@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
+// this is a tedt branch
 const HomePage = () => {
   const [members, setMembers] = useState([]);
 
@@ -23,7 +24,7 @@ const HomePage = () => {
         {members.map((member) => (
           <div key={member.id} className="members-wrapper">
             <div className="member">
-              <p className="user-name">name: {member.name}</p>
+              <p className="user-name">name-: {member.name}</p>
               <p className="user-username">Id: {member.id} </p>{" "}
               <NavLink to={`/user/${member.id}`} className="show-comments">
                 {" "}
