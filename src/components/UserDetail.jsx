@@ -24,11 +24,8 @@ const UserDetail = () => {
   }, [userId]);
 
   return (
-    <div id="userdetail" className="members-tasks-wrapper">
-      <NavLink className="goBack" to="/">
-        {" "}
-        Homepage
-      </NavLink>
+    <div className="members-tasks-wrapper">
+      <NavLink to="/"> Homepage</NavLink>
       <div className="member">
         {tasks.map((task) => (
           <>
